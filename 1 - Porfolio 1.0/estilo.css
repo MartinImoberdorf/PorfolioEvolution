@@ -1,0 +1,489 @@
+/* ---------------------------------------------------------------*/
+/* HEADER*/
+html{
+    background-color: black;
+}
+
+
+#menu{
+    display: inline-block;
+    font-family: 'Bebas Neue', cursive;
+    width: 600px;
+    height: 130px;
+    font-size: 5.5em;
+    text-align: center;
+    padding-top: 25px;
+    padding: auto;
+    margin: auto;
+}
+
+#menuHref1{
+    color: #00FF2E; 
+}
+
+#menuHref1:hover{
+    color: #00FF2E;
+    text-shadow:
+    0 0 7px #fff,
+    0 0 42px #00FF2E,
+    0 0 82px #00FF2E,
+    0 0 92px #00FF2E,
+    0 0 102px #00FF2E,
+    0 0 151px rgba(212, 0, 255, 0.11);
+    cursor: pointer;
+    text-decoration:underline;
+
+}
+
+
+
+#menuHref2{
+    color: #FF00E8;
+}
+#menuHref2:hover{
+    color: #FF00E8;
+    text-shadow:
+    0 0 7px #fff,
+    0 0 42px #FF00E8,
+    0 0 82px #FF00E8,
+    0 0 92px #FF00E8,
+    0 0 102px#FF00E8,
+    0 0 151px rgba(212, 0, 255, 0.11);
+    cursor: pointer;
+    text-decoration:underline;
+
+}
+
+#menuHref3{
+    color: #00ECFF;
+}
+#menuHref3:hover{
+    color: #00ECFF;
+    text-shadow:
+    0 0 7px #fff,
+    0 0 42px #00ECFF,
+    0 0 82px #00ECFF,
+    0 0 92px #00ECFF,
+    0 0 102px #13E6FF,
+    0 0 151px rgba(212, 0, 255, 0.11);
+    cursor: pointer;
+    text-decoration:underline;
+}
+
+#menuHref1,#menuHref2,#menuHref3{
+    text-decoration: none;
+    cursor: pointer;
+}
+/* ---------------------------------------------------------------*/
+
+
+
+/* ---------------------------------------------------------------*/
+/*FONDO*/
+#mivideo{
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+}
+/* ---------------------------------------------------------------*/
+
+
+
+
+
+
+/* ---------------------------------------------------------------*/
+/*ARTICLE*/
+
+/*SECTION POR DEFECTO, INCIO*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------------------*/
+/*SECTION ABOUT ME */
+
+#AboutMe{
+    visibility: hidden
+}
+
+
+/*IMAGEN*/
+#imgAvatar{
+    position: absolute;
+    width: 400px;
+    height: 600px;
+    margin-top: 20px;
+    margin-left: 50px;
+    border-radius: 50px;
+    Border: 5px solid #00ECFF;
+}
+
+
+.InfoPersonal{
+    color: white;
+    position: absolute;
+    margin-left: 520px;
+    margin-top: 20px;
+    background-color: transparent;
+    width: 870px;
+}
+
+/*TÍTULO MI NOMBRE*/
+.InfoPersonal h1{
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    font-size: 2.3em;
+}
+
+.InfoPersonal li{
+    list-style:none
+}
+
+/* INFORMACION */
+
+.InfoPersonal ul li p{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1em;
+    margin-top: 25px;
+    margin-left: 10px;
+    line-height : 25px;
+    text-align: left;
+}
+
+.InfoPersonal ul li p:hover{
+    transition: 0.1s;
+    font-size: 1.3em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------------------*/
+
+/*SECTION MY STORY */
+
+
+#MyStory{
+    visibility: hidden;
+}
+
+
+#MyStory{
+    padding: 50px;
+    position: absolute;
+    display: flex;
+    width: 75%;
+}
+
+#MyStory:hover{
+    background-color: black;
+}
+
+#MyStory p{
+    position: absolute;
+    color: white;
+    font-family: 'Inconsolata', monospace;
+    font-size: 3.2em;
+    margin-top: -30px;
+}
+
+#Story1,#Story2{
+    width: 2800px;
+    margin-top: 55px;
+    font-family: 'Inconsolata', monospace;
+    font-size: 1.1em;
+    line-height: 30px;
+    color: white;
+    background-color: transparent;
+    text-align: justify;
+    z-index: 1;
+    text-align: left;
+}
+
+
+#Story2{
+    margin-left: 25px;
+}
+
+#Story2 b{
+    float: right;
+    color: #FFFF00;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------------------*/
+/*ASIDE*/
+#info1,#info2{
+    Border: 4px solid #F5B041;
+    border-radius: 50px;
+    width: 15%;
+    position: relative;
+    right: -80%;
+}
+
+#Cartel1,#Cartel2{
+    padding-top: 90px;
+}
+
+/* ---------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------------------*/
+/* FOOTER*/
+
+/* LINKEDIN MAIL DISCORD*/
+
+.abajo{
+    display: flex;
+    justify-content: center;
+    background-color:transparent;
+    position: absolute;
+    bottom: 50px;
+    width: 100%;
+    height: 70px;
+    font-size: 2em;
+    margin: auto;
+}
+
+#contact{
+    display: inline-block;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Changa', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    padding: auto;
+    margin: auto;
+}
+
+#abajoHref1,#abajoHref2,#abajoHref3{
+    text-decoration: none;
+}
+
+#abajoHref1{
+    color: #00FF2E;
+}
+#abajoHref2{
+    color: #FF00E8;
+}
+#abajoHref3{
+    color: #00ECFF;
+}
+/* ---------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------------------*/
+
+/* COPYRIGHT */
+
+.abajoCopy{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: -5px;
+    width: 100%;
+    height: 50px;
+}
+
+#copy{
+    display: inline-block;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1.2em;
+    padding: auto;
+    margin: auto;
+}
+/* ---------------------------------------------------------------*/
+
+ 
+
+
+/*NEST HUB MAX*/
+
+@media screen and (max-width:1280px){
+
+    .Home ul li{
+        width: 420px;
+        font-size: 4.5em;
+        margin: 0;
+        padding: 0;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        padding-top: 50px;
+
+    }
+    .Home{
+        display: inline-block;
+        list-style-type: none;
+        
+    }
+    /*CARTELES*/
+    #info1,#info2{
+        width:170px;
+        height:170px;
+        right: -82%;
+    }
+
+    #Cartel1,#Cartel2{
+        padding-top: 95px;
+    }
+
+    /*MY STORY*/
+    #MyStory p{
+        font-size: 3em;
+        margin-top: -30px;
+    }
+
+    #Story1,#Story2{
+        font-size: 0.9em;
+        line-height: 20px;
+    }
+
+    /* LINKEDIN MAIL DISCORD*/
+
+    .abajo{
+        border-radius: 50px;
+        bottom: 20px;
+        height: 50px;
+        width: 1370px;
+        font-size: 1.5em;
+        
+    }
+
+    /* COPYRIGHT */
+
+    .abajoCopy{
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        bottom: -20px;
+        width: 100%;
+        height: 50px;
+    }
+    
+    #copy{
+        color: white;
+        font-size: 0.9em;
+    }
+
+} 

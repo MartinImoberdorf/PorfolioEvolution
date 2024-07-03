@@ -1,0 +1,171 @@
+@media screen and (max-width:1280px) {
+    .menu li a{
+        font-size: 35px;
+    }
+
+    .title .idiomas{
+        font-size: 150px;
+    }
+    #title-WhatILearned{
+        font-size: 75px;
+    }
+    .front h1{
+        font-size: 20px;
+    }
+    .barra{
+        width: 175px;
+    }
+    #logoUnity,#logoPython,#logoCSharp,#logoJava,#logoSql,#logoHtml5{
+        right: 0;
+        left: 0;
+    }
+
+    .parrafo img{
+        width: 250px;
+        padding-left: 20px;
+    }
+    .parrafo h1{
+        font-size: 40px;
+    }
+    .parrafo p{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:412px) {
+    .menu li a{
+        font-size: 12px;
+    }
+    .menu li{
+        margin-left:auto;
+        margin-right:auto;
+        padding: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    body{
+        font-size: 15px;
+    }
+    .title{
+        top: 70px;
+    }
+    .title .idiomas{
+        font-size: 50px;
+    }
+    .MyStory h1 {
+        font-size: 30px;
+    }
+    .MyStory h1 {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    #title-WhatILearned{
+        font-size: 30px;
+    }
+
+    .parrafo img{
+        width: 320px;
+        margin: 0;
+        padding-left: 50px;
+        padding: 0;
+    }
+    .parrafo h1{
+        text-align: center;
+    }
+    .parrafo p{
+        text-align: center;
+    }
+    #title-WhatILearned{
+        margin-top: 1px;
+        height: 100px;
+        text-align: center;
+    }
+    .container{
+        display: block; 
+    }
+    .card-container{
+        height: 30%;
+        width: 50%;
+        margin: auto;
+        padding-top: 20px;
+    }
+    #titleCertificates {
+        font-size: 50px;
+        margin: 0;
+        padding: 0;
+        height: 100px;
+    }
+    #back-Certificates{
+        font-size: 20px;
+    }
+    footer{
+        padding-top: 100px;
+    }
+    footer p{
+        font-size: 95px;
+        text-align: center;
+        padding: 0;
+        height: 150px;
+    }
+    .abajo li a{
+        font-size: 20px;
+    }
+    .parrafo img{
+        padding: auto;
+        margin: 0;
+        width: 350px;
+    }
+}
+
+@media screen and (max-width:280px) {
+    .menu li a{
+        font-size: 10px;
+    }
+    .title{
+        padding-left: 30px;
+    }
+    .title .idiomas{
+        font-size: 40px;
+    }
+    .parrafo h1{
+        font-size: 25px;
+    }
+    #title-WhatILearned{
+        padding:0;
+        margin: 0;
+    }
+    .card-container{
+        width: 60%;
+    }
+    #titleCertificates{
+        padding:0;
+        margin: 0;
+        border: none;
+    }
+    footer p{
+        font-size: 60px;
+        padding-top: 50px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    #titleCertificates {
+        font-size: 40px;
+        height: 70px;
+    }
+    .barra{
+        width: 150px;
+    }
+    .habilidades{
+        padding: 15px;
+    }
+    .MyStory h1 {
+        font-size: 25px;
+    }
+    .parrafo img{
+        width: 320px;
+        margin: 0;
+        float: none;
+        padding: 0;
+    }
+}

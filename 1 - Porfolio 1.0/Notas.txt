@@ -1,0 +1,8 @@
+
+- Al hacer version del celu tablet hacer un barra de inicio nueva y poner
+un display: none; y activarlo cuando sea
+@media only screen and(max-width: 800px){} y activamos la barra nueva 
+LOS ESTILOS SE LO DAMOS NORMAL AL PRINCIPIO
+
+
+<a href='#content'>click aca</a> BAJA Y UBICA EN EL CONTENT
