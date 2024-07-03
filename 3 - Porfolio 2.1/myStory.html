@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maxium-scale=1.0, minium-scale=1.0">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="keywords" content="Imoberdorf,Martín José,Imober,ILCapo,Porfolio">
+    <meta name="description" content="Porfolio created by Martín José Imoberdorf as proof of what I learned and experienced." >
+    <meta name="autor" content="Imoberdorf Martín José">
+    <meta name="copyright" content="Imoberdorf Martín José">
+    <link rel="icon" href="Imgs/Bur.png" type="image/png" sizes="144x144">
+    <title>Martín José Imoberdorf</title>
+    
+    <!--Iconos-->
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Lobster&family=Oswald&family=Rubik:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Lobster&family=Oswald&family=Rubik:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link href="Styles//normalize.css" rel="stylesheet">
+    <link href="Styles/baseStyle.css" rel="stylesheet">
+    <link href="Styles/myStoryStyle.css" rel="stylesheet">
+    
+
+</head>
+
+
+<body>
+    <header>
+        <input type="checkbox" id="btn-menu">
+        <label for="btn-menu"><img src="Imgs/Bur.png" alt=""></label>
+        <nav class="menu">
+            <ul>
+                <li><a href="aboutMe.html">About Me</a></li>
+                <li><a href="myStory.html">My Story</a></li>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="achievements.html">Achievements</a></li>
+                <li><a href="opinions.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section>
+        <div style="text-align: right; margin-top: 50px;margin-right: 50px;">
+            <button type="button" class="button-idioma"  onclick="display1()"> <img src="Imgs/Ingles.jpg"  width="30" /></button>
+            <button type="button" class="button-idioma" onclick="display2()"> <img src="Imgs/Español.png"  width="30" /></button>
+        </div>
+        <article class="MyStory" data-aos="fade-up">
+            <h1 id="MyStory-title">How my life changed . . .</h1>
+            <div class="MyStory-div" id="disp">
+                In a few words, I will try to explain what was the beginning of everything...
+                <br><br>
+                I can start by saying that I love video games; so when I was a child I played for hours and hours, especially with one famous football game. But sometimes this generated discussions or complaints with my parents because I never did anything else in my free time. In my defence, I was a good student that always had great grades at school.
+                <br><br>
+                One day, I was in the middle of a game, when my dad appeared and sat behind me. I thought it would be to see me play and can show him how good I was at that game, but he said completely the opposite: <span>"with all the time you spend on those games you should have already learned how to program it, how to make it or even better"</span>, he got up and went away.
+                <br><br>
+                One night, my dad's phrase was still in my head, so I decided to search on the internet, especially on YouTube, when I found a channel called La Geekipedia De Ernesto. There appeared my first programming language, Java, and I remember I only saw one video and then I went to sleep.
+                <br><br>
+                Over time, I saw one video per day, and everything started to change when the time that I used to spend on video games started to use in learning programming. All the things I saw made me feel more and more passionate about this journey. Sometimes I can realize everything that I have learned and done, and I'm really proud of this amazing change in my life.
+                <br><br>
+                On other hand, I must highlight the dedication and talent of my mum to Maths; days and nights of doing maths exercises together. I remember when I was in primary school and the teacher taught us to divide, with a confusing mechanism. I didn't understand anything, so I came back home and explain to my mum. She had already taught to me multiplication tables, so we found a new and more efficient method to divide.
+                <br><br>
+                So with these experiences, with Maths and Programming, I have decided to study Systems Engineering.
+                <br><br>
+                Thanks, mom and dad!
+                <br><br>
+            </div>
+                <b>2/11/2019</b>  
+        </article>
+    </section>
+
+    
+    <footer class="pie-pagina" >
+        <div class="grupo-1">
+            <div class="box">
+                <figure id="img-float">
+                        <img src="Imgs/avatar.png">
+                </figure>
+            </div>
+            <div class="box">
+                <h2></h2>
+                <ul>
+                    <li><button class="button-footer"><a class="menu_items" href="aboutme.html">About Me</a></button></li>
+                    <li><button class="button-footer"><a class="menu_items" href="myStory.html">My Story</a></button></li>
+                    <li><button class="button-footer"><a class="menu_items" href="home.html">Home</a></button></li>
+                    <li><button class="button-footer"><a class="menu_items" href="achievements.html">Achievements</a></button></li>
+                    <li><button class="button-footer"><a class="menu_items" href="opinions.html">Contact</a></button></li>
+                </ul>
+            </div>
+            <div class="box">
+                <h2>CONTACT</h2>
+                <div class="red-social">
+                    <a href="https://github.com/MartinImoberdorf" target="_blank" class="fab fa-github"></a>
+                    <a href="https://www.linkedin.com/in/martin-jos%C3%A9-imoberdorf-844886202/" target="_blank" class="fab fa-linkedin-in"></a>
+                    <a href="https://www.instagram.com/tinchoimo/?hl=es" target="_blank" class="fab fa-instagram"></a>
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small>&copy; 2022 Imoberdorf Martín José</small>
+        </div>
+    </footer>
+   
+<!--Librería animación Maquina de Escribir-->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script src="js/main.js" ></script>
+
+<!--Librería animación scroll-->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+    const $preloader=document.getElementById('loading');
+    function display1() {
+        document.getElementById("MyStory-title").innerHTML="How my life changed . . .";
+		document.getElementById("disp").innerHTML= "In a few words, I will try to explain what was the beginning of everything...<br><br>I can start by saying that I love video games; so when I was a child I played for hours and hours, especially with one famous football game. But sometimes this generated discussions or complaints with my parents because I never did anything else in my free time. In my defence, I was a good student that always had great grades at school.<br><br>One day, I was in the middle of a game, when my dad appeared and sat behind me. I thought it would be to see me play and can show him how good I was at that game, but he said completely the opposite: <span>'with all the time you spend on those games you should have already learned how to program it, how to make it or even better'</span>, he got up and went away.<br><br>One night, my dad's phrase was still in my head, so I decided to search on the internet, especially on YouTube, when I found a channel called La Geekipedia De Ernesto. There appeared my first programming language, Java, and I remember I only saw one video and then I went to sleep.<br><br>Over time, I saw one video per day, and everything started to change when the time that I used to spend on video games started to use in learning programming. All the things I saw made me feel more and more passionate about this journey. Sometimes I can realize everything that I have learned and done, and I'm really proud of this amazing change in my life.<br><br>On other hand, I must highlight the dedication and talent of my mum to Maths; days and nights of doing maths exercises together. I remember when I was in primary school and the teacher taught us to divide, with a confusing mechanism. I didn't understand anything, so I came back home and explain to my mum. She had already taught to me multiplication tables, so we found a new and more efficient method to divide.<br><br>So with these experiences, with Maths and Programming, I have decided to study Systems Engineering.<br><br>Thanks, mom and dad!<br><br>";
+	}
+	function display2() {
+        document.getElementById("MyStory-title").innerHTML="Como cambio mi vida . . .";
+		document.getElementById("disp").innerHTML= "En pocas palabras intentaré explicar cuál fue el principio de todo...<br><br>Puedo empezar diciendo que me encantan los videojuegos; así que cuando era niño jugaba horas y horas, especialmente con un famoso juego de fútbol. Pero a veces esto generaba discusiones o quejas con mis padres porque nunca hacía otra cosa en mi tiempo libre. En mi defensa, yo era un buen estudiante que siempre tenía buenas notas en la escuela.<br><br>Un día, estaba en medio de un juego, cuando apareció mi papá y se sentó detrás de mí. Pensé que sería para verme jugar y poder demostrarle lo bueno que era en ese juego, pero me dijo todo lo contrario: <span>'Con todo el tiempo que dedicas a esos juegos ya deberías haber aprendido a programarlo, a hacerlo o incluso mejor'</span>, se levantó y se fue.<br><br>Una noche, la frase de mi papá todavía estaba en mi cabeza, así que decidí buscar en Internet, especialmente en YouTube, cuando encontré un canal llamado La Geekipedia De Ernesto. Ahí apareció mi primer lenguaje de programación, Java, y recuerdo que solo vi un video y luego me fui a dormir.<br><br>Con el tiempo, veía un video por día, y todo comenzó a cambiar cuando el tiempo que solía dedicar a los videojuegos comencé a usarlo para aprender a programar. Todas las cosas que vi me hicieron sentir cada vez más apasionado por este viaje. A veces puedo darme cuenta de todo lo que he aprendido y hecho, y estoy muy orgulloso de este increíble cambio en mi vida.<br><br>Por otro lado, debo resaltar la dedicación y el talento de mi mamá para las Matemáticas; días y noches de hacer ejercicios de matemáticas juntos. Recuerdo cuando estaba en primaria y la maestra nos enseñaba a dividir, con un mecanismo confuso. No entendí nada, así que volví a casa y le expliqué a mi mamá. Ella ya me había enseñado las tablas de multiplicar, así que encontramos un método nuevo y más eficiente para dividir.<br><br>Con estas experiencias, con Matemáticas y Programación, he decidido estudiar Ingeniería de Sistemas.<br><br>Gracias mamá y papá!<br><br>";
+	}
+</script>
+<script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
