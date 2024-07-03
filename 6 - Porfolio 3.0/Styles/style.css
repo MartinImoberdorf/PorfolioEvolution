@@ -1,0 +1,375 @@
+:root {
+    --color-principal: #30E115;
+}
+
+*{
+    margin: 0;
+}
+body{
+    margin: 25px;
+    background-color: #000;
+}
+#particles-js{
+    background-color: #000;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top:0;
+    z-index: -1;
+}
+
+/* Inicio */
+.Home, .Experience, .Projects, .Projects-secondary, .MyStory{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+    max-width: 600px; 
+}
+.Home{
+    border-bottom: 0.1px dotted var(--color-principal);
+}
+.imgAvatar{
+    width: 150px;
+    margin: 30px;
+}
+.Home div h1{
+    color: var(--color-principal);
+    font-size: 1.7em;
+    text-align: center;
+    margin: 0;
+    margin-bottom: -8px;
+    margin-right: 25px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    line-height: 1.5;
+}
+.Home div h3{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    color: var(--color-principal);
+    font-size: 0.9em;
+    line-height: 1.5;  
+    margin: 0;
+}
+.redes{
+    margin-top: 15px;
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+}
+.redes a{
+    color: #000;
+    height: auto;
+}
+
+
+@media screen and (max-width:800px){
+    .Home div h1{
+        font-size: 1.6em;
+    }
+    .Home div h3{
+        font-size: 0.7em;
+    }
+    .imgAvatar{
+        width: 120px;
+    }
+}
+@media screen and (max-width:565px){
+    .Home div h1{
+        font-size: 1.6em;
+    }
+    .imgAvatar{
+        margin: 15px;
+    }
+    
+}
+
+@media screen and (max-width:495px){
+    .Home div h1{
+        font-size: 1.5em;
+    }
+    .imgAvatar{
+        width: 100px;
+    }
+}
+
+@media screen and (max-width:447px){
+    .Home div h1{
+        font-size: 1.4em;
+    }
+    .imgAvatar{
+        width: 90px;
+    }
+    svg{
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media screen and (max-width:422px){
+    .Home div h1{
+        font-size: 1.2em;
+        margin-bottom: -5px;
+    }
+}
+
+
+/* Experiencia */
+.Experience
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Experience h1{
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.3em;
+    font-weight: 400;
+    width: 100%;
+    padding: 25px;
+    margin: 0 25px;
+}
+
+/* One Experience */
+.OneExperience h3{
+    color: #e5e7eb;
+    margin: 0 25px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    color: var(--color-principal);
+}
+.OneExperience div{
+    border-left: 0.1px solid #e5e7eb;
+    margin: 0 25px;
+}
+.OneExperience div time{
+    color: #fff;
+    margin: 25px;
+    font-family: "Poppins", sans-serif;
+    font-size: 0.8em;
+    opacity: 0.8;
+}
+.OneExperience div p{
+    color: #e5e7eb;
+    margin: 25px;
+    margin-top: 5px;
+    font-family: "Poppins", sans-serif;
+    font-size: 0.8em;
+}
+
+/* Projects */
+.Projects
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Projects h1{
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.3em;
+    font-weight: 400;
+    width: 100%;
+    padding: 25px;
+    margin: 0 25px;
+}
+/* One Project */
+.OneProject{
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+}
+.OneProject h1{
+    color: var(--color-principal);
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2em;
+    font-weight: 700;
+    width: 100%;
+    padding: 0;
+}
+.OneProject img{
+    width: 250px;
+    height: 150px;
+    border-radius: 0.5rem;
+}
+.OneProject div p{
+    color: #e5e7eb;
+    margin: 25px;
+    margin-top: 5px;
+    font-family: "Poppins", sans-serif;
+    font-size: 0.8em;
+    margin-bottom: 5px
+}
+.OneProjectDiv{
+    margin: 0 25px;
+}
+
+@media screen and (max-width:560px){
+    .Projects{
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .Projects h1{
+        flex-wrap: wrap;
+        flex-direction: row;
+        padding: 10px 0;
+    }
+    .OneProject{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 220px;
+    }
+    .OneProject h1{
+        font-size: 1em;
+        margin: 5px 0px; 
+    }
+    .OneProject div p{
+        margin: 5px 0px; 
+        font-size: 0.7em;
+    }
+}
+
+/* Projects Secondary */
+
+.Projects-secondary
+{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.OneProject-Secondary{
+    margin: 10px;
+    border: 0.1px solid var(--color-principal);
+    padding: 15px;
+    text-decoration: none;
+    width: 280px;
+    height: 120px;
+    border: 0.1px solid #30e11534;
+    opacity: 0.5;
+    border-radius: 12px;
+}
+.OneProject-Secondary:hover{
+    border: 0.1px solid var(--color-principal);
+    opacity: 1;
+}
+.OneProject-Secondary h3{
+    margin: 0 25px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+    color: var(--color-principal);
+}
+.OneProject-Secondary h4{
+    color: #e5e7eb;
+    margin: 3px 25px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 0.8em;
+}
+.OneProject-Secondary div{
+    margin: 3px 5px;
+    padding: 3px 20px;
+}
+
+@media screen and (max-width:630px){
+    .OneProject-Secondary{
+        width: 230px;
+    }
+}
+
+@media screen and (max-width:549px){
+    .OneProject-Secondary{
+        width: 200px;
+    }
+    .OneProject-Secondary h3{
+        font-size: 0.8em;
+    }
+    .OneProject-Secondary h4{
+        font-size: 0.6em;
+    }
+}
+
+@media screen and (max-width:490px){
+    .OneProject-Secondary{
+        width: 180px;
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width:449px){
+    .OneProject-Secondary{
+        width: 150px;
+        padding: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .OneProject-Secondary svg{
+        width: 19px
+    }
+}
+
+@media screen and (max-width:390px){
+    .OneProject-Secondary{
+        width: 140px;
+        padding: 0;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+}
+
+@media screen and (max-width:370px){
+    .OneProject-Secondary{
+        width: 130px;
+    }
+}
+
+@media screen and (max-width:350px){
+    .OneProject-Secondary{
+        width: 120px;
+    }
+}
+@media screen and (max-width:330px){
+    .OneProject-Secondary{
+        width: 180px;
+    }
+}
+
+
+/* My Story */
+.MyStory{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 0.1px dotted var(--color-principal);
+}
+.MyStory h1{
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.3em;
+    font-weight: 400;
+    width: 100%;
+    padding: 25px;
+    margin: 0 25px;
+}
+.MyStory p{
+    color: #e5e7eb;
+    margin: 25px;
+    margin-top: 5px;
+    font-family: "Poppins", sans-serif;
+    font-size: 0.8em;
+    margin-bottom: 5px;
+    line-height: 20px;
+}
+.MyStory span{
+    color: var(--color-principal);
+    opacity: 0.8;
+}
+
+/* Contact */
